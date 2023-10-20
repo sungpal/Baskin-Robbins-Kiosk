@@ -23,8 +23,8 @@ public class product extends menu {
             productDescription = coffeeData[productNum - 1][2];
         }
 
-//        String[] order = {menuName, price, productName, productDescription};
-//        wholeOrderList.add(order);
+        String[] order = {menuName, price, productName, productDescription};
+        wholeOrderList.add(order);
 
         System.out.println("\n\"" + menuName + " | " + price + " | " + productName + " | " + productDescription + "\"");
         System.out.println("\n 위 메뉴를 장바구니에 추가하시겠습니까?\n" +

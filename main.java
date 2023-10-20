@@ -62,7 +62,7 @@ public class main {
                         if (order.nextOrderIndex == 0) {
                             System.out.println("" +
                                     "※※※※※※※※※※※※※※※※※※※※※※※※\n" +
-                                    "장바구니에 원하시는 상품을 담아주세요!\n" +
+                                    " 장바구니에 원하시는 상품을 담아주세요!\n" +
                                     "※※※※※※※※※※※※※※※※※※※※※※※※\n");
                             continue;
                         }
@@ -88,7 +88,7 @@ public class main {
                         continue;
                     }
                 default:
-                    System.out.println("잘못된 접급입니다.");
+                    System.out.println("잘못된 접근입니다.");
                     break;
             }
             if (mainmenu_num != 1 && okOrcancel == 0) {

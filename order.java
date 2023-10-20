@@ -4,8 +4,6 @@ import java.util.List;
 
 public class order {
     public static List<String[]> orderList = new ArrayList<>();
-    public static List<String[]> wholeOrderList = new ArrayList<>();
-
     static int nextOrderIndex = 0;
     static int waitNumber = 0;
     static double wholeOrderPrice = 0;
@@ -38,10 +36,6 @@ public class order {
     }
 
     public static void clearCart() {
-        wholeOrderList.addAll(orderList);
-//        String[] order = {Arrays.toString(orderList.get(1)), Arrays.toString(orderList.get(2))};
-//        System.out.println(order[0]+order[1]);
-//        System.out.println(Arrays.toString(orderList.get(1)));
         wholeOrderPrice += total;
         waitNumber++;
         System.out.println("주문이 완료되었습니다!");
